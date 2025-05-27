@@ -1,0 +1,33 @@
+What is nmap?
+
+1. **Nmap  short for **Network Mapper**, is a free and open-source tool used for network discovery and security auditing.
+
+2. It is widely used by cybersecurity professionals to identify devices on a network, discover open ports, and detect services running on those ports.
+
+3. Nmap works by sending specially crafted packets to target systems and analyzing the responses.
+
+4. One of its most common scanning techniques is the **TCP SYN scan**, which helps identify open ports without completing the full TCP handshake.
+
+5. By analyzing open ports and services, Nmap helps in assessing the security posture of a system or network.
+
+6. It can also detect operating systems, service versions, and even run vulnerability detection scripts using its **Nmap Scripting Engine (NSE)**.
+
+7. Nmap is available on Windows, Linux, and macOS, and it also has a graphical interface called **Zenmap**.
+
+8. In cybersecurity, Nmap is considered a foundational tool for **reconnaissance** — the first phase in ethical hacking or penetration testing.
+ 
+
+Results for nmap assigned task of task 1
+
+C:\Users\sham>nmap 192.168.11.20
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-26 21:03 India Standard Time
+Nmap scan report for 192.168.11.20
+Host is up (0.00052s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5432/tcp open  postgresql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.50 seconds
